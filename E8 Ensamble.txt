@@ -1,0 +1,9 @@
+E8 - Ensemble Trees Overview
+
+Los modelos por ensamble son una técnica en la cual se busca combinar muchos modelos base con la finalidad de obtener un modelo final mucho más optimo y robusto para realizar predicciones, por lo general se desarrolla a través múltiples submuestreos diferentes para entrenar cada modelo con cada uno de los submuestreos y la predicción final se da a través de un consolidado de cada una de las predicciones de los modelos generados.
+Cuando se genera un modelo de ensamble se puede realizar a partir de una base de modelos en la cual se utilice el mismo tipo de modelo por ejemplo utilizar únicamente arboles de decisión, también se puede utilizar una mezcla de múltiples tipos de modelos.
+Cuando se utiliza bagging se busca reducir la varianza de una estimación al tener el promedio de muchas estimaciones lo cual ayuda mucho a realizar predicciones adecuadas
+No necesariamente incrementar el número de modelos es la mejor opción para generar un mejor puntaje de precisión del modelo, puesto que esto tiene un mayor costo computacional y también existe la posibilidad de que los modelos agregados no sean los adecuados para realizar las predicciones necesarias.
+Es una buena idea cuando se enfrenta a un problema de ML que se busque resolver a través de modelos de ensamble realizar algunos modelos iniciales para obtener algunos de los parámetros que pueden mejorar los modelos individuales que se generen para finalmente construir la predicción robusta.
+Se suele buscar muchas veces un sobreajuste de los modelos base para los datos con los cuales se entrenan puesto que generar modelos diferentes los unos de los otros haciendo así que finalmente se abarque un amplio espectro de datos.
+El utilizar metodologías de ensamble para realizar predicciones suele ser la mejor decisión para resolver problemas de ML

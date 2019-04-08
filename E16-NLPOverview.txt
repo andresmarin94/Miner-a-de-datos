@@ -1,0 +1,10 @@
+BING
+Es un buscador que tiene aproximadamente el 15% del mercado disponible, aunque se encuentra muy por debajo de Google en él se realizan importantes labores de NLP con la finalidad de optimizar búsquedas, brindar resultados más acertados y en general mejorar la experiencia de cada uno de los usuarios finales. Algunos de los puntos que utiliza esta herramienta para realizar el procesamiento son
+1.	Resumen: Aquí se busca el tema central del que trata cada una de las páginas disponibles a través de diferentes metodologías como clustering, análisis de sentimiento enriqueciendo el repositorio sobre el cual se va a realizar la búsqueda.
+2.	Reconocimiento del idioma en el que se está realizando la consulta y comparando con el idioma en el que se encuentra cada una de las páginas disponibles.
+3.	Semantica a partir del reconocimiento de entidades en el texto cuales se encuentran en un mapeo previo a partir de etiquetas con las cuales se busca averiguar cuáles son las expresiones que tienen significados similares o iguales
+4.	Conomiento: tener la capacidad de reconocer las relaciones entre entidades de la consulta y las páginas/documentos disponibles 
+5.	Extracción de palabras clave de cada una de las oraciones y páginas web con la finalidad de analizar las temáticas tratadas en las páginas y reducir la cantidad de procesamiento necesario 
+Además, existen variaciones según el tipo de búsqueda que se realice, para determinar ciertas partes de la página más relacionada con la búsqueda realizada, por ejemplo, códigos de programación de ciertos lenguajes
+Finalmente, se le brinda un score de cada uno de los resultados con la finalidad de mostrar en el primer lugar los que estén mejor rankeados. 
+Es claro que la integración de todas las herramientas explicadas previamente son un completo reto, a eso sumado el gran volumen de datos que se puede manejar con millones de páginas web y todo el texto que contiene cada una de ellas
